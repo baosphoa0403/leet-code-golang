@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"leet-code-golang.com/array"
+)
 
 func main() {
 	fmt.Println("hello world")
+	array.TwoSum()
 }
