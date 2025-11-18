@@ -1,6 +1,8 @@
 package main
 
-import "leet-code-golang.com/array"
+import (
+	twopointerslowfast "leet-code-golang.com/two-pointer-slow-fast"
+)
 
 func main() {
 	// array.TwoSum()
@@ -20,11 +22,19 @@ func main() {
 
 	// array.IsSubsequence()
 	// array.LongestConsecutive()
-	array.FirstMissingPositive()
+	// array.FirstMissingPositive()
 	// i := 0
 	// for i < 5 { // This acts as a 'while' loop
 	// 	fmt.Println(i)
 	// 	i++
 	// }
+	// fmt.Printf("%q\n", chars)
 
+	// twopointer.IsPalindrome()
+	// twopointer.ReverseString()
+	// twopointer.ReverseWords()
+	// twopointer.TwoSum()
+
+	// twopointerslowfast.RemoveDuplicates()
+	twopointerslowfast.RemoveElement()
 }
