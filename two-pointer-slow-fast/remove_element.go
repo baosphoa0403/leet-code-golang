@@ -9,29 +9,19 @@ func RemoveElement() {
 	}
 
 	for k, v := range inputs {
-		res := execRemoveElement(v, k)
+		res := removeElement(v, k)
 		fmt.Printf("input: %v  -> result: %v\n", v, res)
 	}
 
 }
 
-func execRemoveElement(nums []int, val int) int {
-	left := 0
-	// for left < c-1 {
-	// 	if nums[left] == val {
-	// 		fmt.Println("nums[left]", nums[left], nums[left+1])
-	// 		nums[left] = nums[left+1]
-	// 	}
-	// 	left++
-	// }
-	for i := 1; i < len(nums); i++ {
-		if nums[left] != val {
-			nums[left] = nums[i]
-			fmt.Println("nums", nums)
-			left++
+func removeElement(nums []int, val int) int {
+	slow := 0
+	for fast := 0; fast < len(nums); fast++ {
+		if nums[fast] != val {
+			nums[slow] = nums[fast]
+			slow++
 		}
 	}
-
-	// fmt.Println("nums", nums)
-	return len(nums) - left
+	return slow
 }
