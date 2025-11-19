@@ -36,5 +36,7 @@ func main() {
 	// twopointer.TwoSum()
 
 	// twopointerslowfast.RemoveDuplicates()
-	twopointerslowfast.RemoveElement()
+	// twopointerslowfast.RemoveElement()
+	// twopointerslowfast.SortedSquares()
+	twopointerslowfast.ThreeSum()
 }
