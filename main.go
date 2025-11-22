@@ -1,6 +1,8 @@
 package main
 
-import twopointerslowfast "leet-code-golang.com/two-pointer-slow-fast"
+import (
+	slidewindow "leet-code-golang.com/slide-window"
+)
 
 func main() {
 	// array.TwoSum()
@@ -37,5 +39,9 @@ func main() {
 	// twopointerslowfast.RemoveElement()
 	// twopointerslowfast.SortedSquares()
 	// twopointerslowfast.ThreeSum()
-	twopointerslowfast.FourSum()
+	// twopointerslowfast.FourSum()
+
+	// slidewindow.FindMaxAverage()
+	// slidewindow.MaxProfit()
+	slidewindow.LengthOfLongestSubstring()
 }
