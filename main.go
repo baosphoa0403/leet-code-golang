@@ -1,8 +1,6 @@
 package main
 
-import (
-	twopointerslowfast "leet-code-golang.com/two-pointer-slow-fast"
-)
+import twopointerslowfast "leet-code-golang.com/two-pointer-slow-fast"
 
 func main() {
 	// array.TwoSum()
@@ -38,5 +36,6 @@ func main() {
 	// twopointerslowfast.RemoveDuplicates()
 	// twopointerslowfast.RemoveElement()
 	// twopointerslowfast.SortedSquares()
-	twopointerslowfast.ThreeSum()
+	// twopointerslowfast.ThreeSum()
+	twopointerslowfast.FourSum()
 }
