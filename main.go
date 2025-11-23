@@ -1,7 +1,7 @@
 package main
 
 import (
-	slidewindow "leet-code-golang.com/slide-window"
+	linkedlist "leet-code-golang.com/linked-list"
 )
 
 func main() {
@@ -45,5 +45,6 @@ func main() {
 	// slidewindow.MaxProfit()
 	// slidewindow.CharacterReplacement()
 
-	slidewindow.MinWindow()
+	// slidewindow.MinWindow()
+	linkedlist.ReverseList()
 }
