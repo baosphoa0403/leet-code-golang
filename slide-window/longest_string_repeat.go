@@ -23,7 +23,6 @@ func lengthOfLongestSubstring(s string) int {
 		c := s[right]
 		freq[c]++
 
-		fmt.Println("freq", freq)
 		for freq[c] > 1 {
 			freq[s[left]]--
 			left++
