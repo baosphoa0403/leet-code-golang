@@ -21,7 +21,6 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 
 	cur1 := list1
 	cur2 := list2
-	fmt.Println("cur1", cur1)
 	for cur1 != nil && cur2 != nil {
 		if cur1.Val <= cur2.Val {
 			tail.Next = cur1
