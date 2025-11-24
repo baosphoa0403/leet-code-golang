@@ -1,8 +1,6 @@
 package main
 
-import (
-	linkedlist "leet-code-golang.com/linked-list"
-)
+import linkedlist "leet-code-golang.com/linked-list"
 
 func main() {
 	// array.TwoSum()
@@ -49,5 +47,8 @@ func main() {
 	// linkedlist.ReverseList()
 	// linkedlist.MiddleNode()
 	// linkedlist.RemoveNthFromEnd()
-	linkedlist.MergeTwoLists()
+	//linkedlist.MergeTwoLists()
+
+	//linkedlist.DetectCycle()
+	linkedlist.IsPalindrome()
 }
