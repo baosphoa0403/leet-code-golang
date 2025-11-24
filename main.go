@@ -47,5 +47,7 @@ func main() {
 
 	// slidewindow.MinWindow()
 	// linkedlist.ReverseList()
-	linkedlist.MiddleNode()
+	// linkedlist.MiddleNode()
+	// linkedlist.RemoveNthFromEnd()
+	linkedlist.MergeTwoLists()
 }

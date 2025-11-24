@@ -8,7 +8,10 @@ func MiddleNode() {
 	head.Next.Next = &ListNode{Val: 3}
 	head.Next.Next.Next = &ListNode{Val: 4}
 	head.Next.Next.Next.Next = &ListNode{Val: 5}
+	head.Next.Next.Next.Next.Next = &ListNode{Val: 6}
+	head.Next.Next.Next.Next.Next.Next = &ListNode{Val: 7}
 
+	printList(head)
 	out := middleNode(head)
 	printList(out)
 	fmt.Println(out.Val)
@@ -17,11 +20,11 @@ func MiddleNode() {
 func middleNode(head *ListNode) *ListNode {
 	slow := head
 	fast := head
-	// fmt.Println("slow", slow, fast)
-
 	for fast.Next != nil {
-		fmt.Println("slow", slow, fast)
 		slow = slow.Next
+		if fast.Next.Next == nil {
+			break
+		}
 		fast = fast.Next.Next
 	}
 
