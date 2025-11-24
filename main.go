@@ -46,5 +46,6 @@ func main() {
 	// slidewindow.CharacterReplacement()
 
 	// slidewindow.MinWindow()
-	linkedlist.ReverseList()
+	// linkedlist.ReverseList()
+	linkedlist.MiddleNode()
 }
