@@ -50,5 +50,6 @@ func main() {
 	//linkedlist.MergeTwoLists()
 
 	//linkedlist.DetectCycle()
-	linkedlist.IsPalindrome()
+	//linkedlist.IsPalindrome()
+	linkedlist.ReorderList()
 }
