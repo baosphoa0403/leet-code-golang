@@ -13,17 +13,35 @@ func IsPalindrome() {
 	fmt.Println("res:", res)
 }
 
+func Reverse(head *ListNode) *ListNode {
+	var prev *ListNode
+	for head != nil {
+		next := head.Next
+		head.Next = prev
+		prev = head
+		head = next
+	}
+	return prev
+}
+
 func isPalindrome(head *ListNode) bool {
 	slow, fast := head, head
 	for fast != nil && fast.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
-		fmt.Println("slow", slow, "fast", fast)
 	}
 
-	printList(head)
+	reversed := Reverse(slow)
+	first := head
+	second := reversed
 
-	fmt.Println("final", slow)
+	for first != nil && second != nil {
+		if first.Val != second.Val {
+			return false
+		}
+		first = first.Next
+		second = second.Next
+	}
 
-	return false
+	return true
 }
