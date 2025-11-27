@@ -53,5 +53,6 @@ func main() {
 	//linkedlist.IsPalindrome()
 	// linkedlist.ReorderList()
 	// linkedlist.ReverseBetween()
-	linkedlist.SortList()
+	// linkedlist.SortList()
+	linkedlist.InsertionSortList()
 }
