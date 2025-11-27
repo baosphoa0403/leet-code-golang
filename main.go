@@ -52,5 +52,6 @@ func main() {
 	//linkedlist.DetectCycle()
 	//linkedlist.IsPalindrome()
 	// linkedlist.ReorderList()
-	linkedlist.ReverseBetween()
+	// linkedlist.ReverseBetween()
+	linkedlist.SortList()
 }
