@@ -55,5 +55,7 @@ func main() {
 	// linkedlist.ReverseBetween()
 	// linkedlist.SortList()
 	// linkedlist.InsertionSortList()
-	linkedlist.RemoveDuplicateFromSortList()
+	// linkedlist.RemoveDuplicateFromSortList()
+	// linkedlist.PartitionList()
+	linkedlist.SwapPairs()
 }
