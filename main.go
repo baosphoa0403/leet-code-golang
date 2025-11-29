@@ -54,5 +54,6 @@ func main() {
 	// linkedlist.ReorderList()
 	// linkedlist.ReverseBetween()
 	// linkedlist.SortList()
-	linkedlist.InsertionSortList()
+	// linkedlist.InsertionSortList()
+	linkedlist.RemoveDuplicateFromSortList()
 }
