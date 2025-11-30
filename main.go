@@ -57,5 +57,6 @@ func main() {
 	// linkedlist.InsertionSortList()
 	// linkedlist.RemoveDuplicateFromSortList()
 	// linkedlist.PartitionList()
-	linkedlist.SwapPairs()
+	// linkedlist.SwapPairs()
+	linkedlist.AddTwoNumbers()
 }
