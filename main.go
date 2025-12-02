@@ -65,5 +65,6 @@ func main() {
 	// stack.ValidParentheses()
 	// stack.DailyTemperatures()
 
-	tree.MaxDepth()
+	// tree.MaxDepth()
+	tree.InvertTree()
 }
