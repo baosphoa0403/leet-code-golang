@@ -19,10 +19,7 @@ func invertTree(root *TreeNode) *TreeNode {
 		return nil
 	}
 
-	fmt.Println("before root", root, "left", root.Left, "right", root.Right)
-
 	root.Left, root.Right = root.Right, root.Left
-	fmt.Println("after root", root, "left", root.Left, "right", root.Right)
 
 	invertTree(root.Left)
 	invertTree(root.Right)

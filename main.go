@@ -66,5 +66,9 @@ func main() {
 	// stack.DailyTemperatures()
 
 	// tree.MaxDepth()
-	tree.InvertTree()
+	// tree.InvertTree()
+	// tree.IsSameTree()
+	// tree.IsSubtree()
+	// tree.DiameterOfBinaryTree()
+	tree.IsBalanced()
 }
