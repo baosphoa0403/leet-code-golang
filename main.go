@@ -70,5 +70,8 @@ func main() {
 	// tree.IsSameTree()
 	// tree.IsSubtree()
 	// tree.DiameterOfBinaryTree()
-	tree.IsBalanced()
+	// tree.IsBalanced()
+	// tree.PreorderTraversal()
+	// tree.InorderTraversal()
+	tree.PostorderTraversal()
 }
