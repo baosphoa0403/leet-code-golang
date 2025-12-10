@@ -74,4 +74,5 @@ func main() {
 	// tree.PreorderTraversal()
 	// tree.InorderTraversal()
 	tree.PostorderTraversal()
+	tree.LevelOrder()
 }
