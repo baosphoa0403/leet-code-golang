@@ -1,11 +1,19 @@
 package main
 
-import binarysearch "leet-code-golang.com/binary-search"
+import (
+	"fmt"
+
+	"leet-code-golang.com/array"
+)
 
 func main() {
-	// array.TwoSum()
+	// res := array.TwoSumV2([]int{3, 2, 3, 7}, 9)
+	// (3:0) (4:1) (3:0)
+	// fmt.Println("res", res)
 	// array.ContainDuplicate()
 	// array.ValidAnagram()
+	a := array.IsAnagramV2()
+	fmt.Println("a", a)
 	// array.GroupAnagram()
 	// array.TopKFrequenceElement()
 	// abc := make(map[int]string, 0)
@@ -76,6 +84,6 @@ func main() {
 
 	// binarysearch
 	// binarysearch.BinarySearch()
-	binarysearch.SearchInRotatedStoredArray()
+	// binarysearch.SearchInRotatedStoredArray()
 
 }
