@@ -12,8 +12,15 @@ func main() {
 	// fmt.Println("res", res)
 	// array.ContainDuplicate()
 	// array.ValidAnagram()
-	a := array.IsAnagramV2()
-	fmt.Println("a", a)
+	// a := array.IsAnagramV2()
+	// fmt.Println("a", a)
+
+	// res := array.GroupAnagrams([]string{
+	// 	"eat", "tea", "tan", "ate", "nat", "bat",
+	// })
+	// fmt.Println("res", res)
+	res := array.TopKFrequentV2([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
+	fmt.Println("res", res)
 	// array.GroupAnagram()
 	// array.TopKFrequenceElement()
 	// abc := make(map[int]string, 0)
