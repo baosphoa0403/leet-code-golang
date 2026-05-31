@@ -217,3 +217,6 @@ Hoàn thành toàn bộ roadmap, bạn sẽ:
 - Master 12 patterns chính của LeetCode
 - Giải được 80% câu hỏi phỏng vấn backend
 - Tự tin bước vào technical round
+
+## Roead map 
+link: https://roadmap.sh/leetcode

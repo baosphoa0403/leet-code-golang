@@ -19,8 +19,8 @@ func main() {
 	// 	"eat", "tea", "tan", "ate", "nat", "bat",
 	// })
 	// fmt.Println("res", res)
-	res := array.TopKFrequentV2([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
-	fmt.Println("res", res)
+	// res := array.TopKFrequentV2([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
+	// fmt.Println("res", res)
 	// array.GroupAnagram()
 	// array.TopKFrequenceElement()
 	// abc := make(map[int]string, 0)
@@ -30,8 +30,16 @@ func main() {
 
 	// }
 
-	// a := []int{1, 2, 3}
-	// fmt.Println(a[:2])
+	// a := []int{1, 1, 1}
+	// fmt.Println("a: ", a[1:])
+	// k := 2
+	// res := array.SubarraySumV2(a, k)
+	// fmt.Println("res: ", res)
+	nums := []int{-2, 0, 3, -5, 2, -1}
+
+	abc := array.Constructor(nums)
+	res := abc.SumRange(0, 2)
+	fmt.Println("res: ", res)
 
 	// array.IsSubsequence()
 	// array.LongestConsecutive()
