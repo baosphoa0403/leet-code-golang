@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"leet-code-golang.com/array"
+	twopointerslowfast "leet-code-golang.com/two-pointer-slow-fast"
 )
 
 func main() {
@@ -35,11 +35,12 @@ func main() {
 	// k := 2
 	// res := array.SubarraySumV2(a, k)
 	// fmt.Println("res: ", res)
-	nums := []int{-2, 0, 3, -5, 2, -1}
+	// nums := []int{2, 7, 11, 15}
 
-	abc := array.Constructor(nums)
-	res := abc.SumRange(0, 2)
-	fmt.Println("res: ", res)
+	// abc := array.Constructor(nums)
+	// res := abc.SumRange(0, 2)
+	// fmt.Println("res: ", res)
+	// res := array.MaxSubArray(nums)
 
 	// array.IsSubsequence()
 	// array.LongestConsecutive()
@@ -50,6 +51,37 @@ func main() {
 	// 	i++
 	// }
 	// fmt.Printf("%q\n", chars)
+
+	// res := map[int][]int{}
+	// res[9] = []int{2, 7, 11, 15}
+	// res[1] = []int{-3, -1, 0, 2, 4, 6}
+	// res[13] = []int{1, 2, 3, 4, 4, 9}
+	// res[8] = []int{1, 2, 3, 4, 4}
+
+	// for k, v := range res {
+	// 	res := twopointer.TwoSumV2(v, k)
+	// 	fmt.Println("k: ", k, "value: ", v, "res: ", res)
+	// }
+	// res := twopointer.TwoSumV2(nums, 9)
+	// fmt.Println("res: ", res)
+
+	// except := []string{"A man, a plan, a canal: Panama", "race a car", " "}
+	// for _, v := range except {
+	// 	res := twopointer.IsPalindromeV2(v)
+	// 	fmt.Println("s: ", v, "res: ", res)
+	// }
+
+	// abc := map[int][][]int{}
+	// except := [][]int{
+	// 	[]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4},
+	// 	[]int{1, 1, 2},
+	// 	[]int{1, 1, 2},
+	// 	[]int{1, 1, 2},
+	// }
+	// for _, v := range except {
+	// 	res := twopointer.IsPalindromeV2(v)
+	// 	fmt.Println("s: ", v, "res: ", res)
+	// }
 
 	// twopointer.IsPalindrome()
 	// twopointer.ReverseString()
@@ -100,5 +132,15 @@ func main() {
 	// binarysearch
 	// binarysearch.BinarySearch()
 	// binarysearch.SearchInRotatedStoredArray()
+
+	// nums := []int{0, 1, 2, 2, 3, 3, 4}
+	// twopointerslowfast.RemoveElementV2(nums, 2)
+	// twopointerslowfast.MoveZeroes()
+	// nums := []int{-4, -1, -1, 0, 1, 2}
+	// abc := twopointerslowfast.ThreeSumV2(nums)
+	// fmt.Println("res: ", abc)
+
+	closest := twopointerslowfast.ThreeSumClosest([]int{-1, 2, 1, -4}, 1)
+	fmt.Println("closet: ", closest)
 
 }
